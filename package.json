@@ -4,13 +4,46 @@
   "license": "MIT",
   "scripts": {},
   "private": true,
-  "dependencies": {},
   "devDependencies": {
+    "@angular-devkit/schematics": "^14.2.8",
+    "@nrwl/cypress": "^14.8.6",
+    "@nrwl/eslint-plugin-nx": "14.8.6",
+    "@nrwl/jest": "^14.8.6",
+    "@nrwl/linter": "^14.8.6",
     "@nrwl/nx-cloud": "latest",
-    "nx": "15.0.10",
-    "prettier": "^2.6.2"
+    "@nrwl/workspace": "^14.8.6",
+    "@nxext/svelte": "^14.0.2",
+    "@nxext/vitest": "^14.1.0",
+    "@sveltejs/vite-plugin-svelte": "^1.0.1",
+    "@testing-library/svelte": "^3.1.3",
+    "@tsconfig/svelte": "^3.0.0",
+    "@types/jest": "28.1.1",
+    "@types/node": "16.11.7",
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "@typescript-eslint/parser": "^5.36.1",
+    "@vitest/ui": "^0.9.3",
+    "c8": "^7.12.0",
+    "cypress": "^10.7.0",
+    "eslint": "~8.15.0",
+    "eslint-config-prettier": "8.1.0",
+    "eslint-plugin-cypress": "^2.10.3",
+    "eslint-plugin-svelte3": "^4.0.0",
+    "jest": "28.1.1",
+    "jest-environment-jsdom": "28.1.1",
+    "nx": "^14.8.6",
+    "prettier": "^2.6.2",
+    "svelte": "^3.49.0",
+    "svelte-check": "^2.8.0",
+    "svelte-jester": "^2.3.2",
+    "svelte-preprocess": "^4.10.7",
+    "ts-jest": "28.0.5",
+    "ts-node": "10.9.1",
+    "vitest": "^0.19.1"
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
 }
